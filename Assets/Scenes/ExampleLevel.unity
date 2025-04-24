@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 710143399}
   m_Layer: 0
   m_Name: SpinningObstacle
-  m_TagString: Projectile
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70131406f72b8c24f85fa2647419188f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 90
+  rotationSpeed: 45
 --- !u!114 &710143396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circlePrefab: {fileID: 1365866320185971545, guid: e4463e55a73de964a84c095ca645eb7e, type: 3}
   numberOfCirclesPerLine: 3
-  spacing: 1.5
+  spacing: 1.75
   offsetFromCenter: 1
   numberOfDirections: 4
 --- !u!50 &710143397
@@ -468,7 +468,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
+  m_Radius: 0.55
 --- !u!212 &710143399
 SpriteRenderer:
   m_ObjectHideFlags: 0
