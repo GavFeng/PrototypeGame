@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class ProjectileController : MonoBehaviour
+public class Spinner : MonoBehaviour
 {
-    public float speed = 5f;
+    public float rotationSpeed = 90f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,6 +13,6 @@ public class ProjectileController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * Time.deltaTime * speed);
+        transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
     }
 }
